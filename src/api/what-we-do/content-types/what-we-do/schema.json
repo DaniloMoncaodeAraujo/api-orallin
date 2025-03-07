@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "what_we_do_services",
+  "info": {
+    "singularName": "what-we-do",
+    "pluralName": "what-we-do-services",
+    "displayName": "o-que-fazemos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
